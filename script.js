@@ -1,6 +1,6 @@
 const SCHOOL_DOMAIN = '01.kood.tech'
-const GRAPHQL_ENDPOINT = `https://${SCHOOL_DOMAIN}/graphiql`
-//const GRAPHQL_ENDPOINT = `https://${SCHOOL_DOMAIN}/api/graphql-engine/v1/graphql`
+//const GRAPHQL_ENDPOINT = `https://${SCHOOL_DOMAIN}/graphiql`
+const GRAPHQL_ENDPOINT = `https://${SCHOOL_DOMAIN}/api/graphql-engine/v1/graphql`
 
 const student = {
     id: 0,
