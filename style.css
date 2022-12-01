@@ -1,0 +1,72 @@
+body {
+	background-color: black;
+	color: white;
+	font: 1vw Inconsolata, monospace;
+}
+
+svg {
+	width: auto;
+	height: auto;
+	max-width: 1100px;
+	max-height: 600px;
+}
+
+text {
+	fill: white;
+}
+
+#user-info {
+	padding: 0 100px;
+}
+
+#user-info table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1100px;
+}
+
+.graph-container {
+	text-align: center;
+	padding: 20px 50px;
+}
+
+.graph .labels.x-labels {
+	text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+	text-anchor: end;
+}
+
+.graph {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+.graph .grid {
+	stroke: #ccc;
+	stroke-dasharray: 0;
+	stroke-width: 1;
+}
+
+.labels {
+	font-size: 13px;
+}
+
+.label-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	fill: black;
+}
+
+.data circle {
+	fill: white;
+}
+
+.data line {
+	stroke: white;
+	stroke-width: 1;
+}
