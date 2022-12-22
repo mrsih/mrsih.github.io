@@ -5,8 +5,8 @@ const GRAPHQL_ENDPOINT = `https://${SCHOOL_DOMAIN}/api/graphql-engine/v1/graphql
 const student = {
     id: 0,
     login: 'msih',
-    totalXP: 70,
-    level: 4,
+    totalXP: 0,
+    level: 0,
     transactions: [],
     progresses: [],
     doneProjects: [],
