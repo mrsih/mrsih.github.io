@@ -1,6 +1,6 @@
 body {
-	background-color: black;
-	color: white;
+	background-color: rgb(68, 162, 255);
+	color: rgb(0, 0, 0);
 	font: 1vw Inconsolata, monospace;
 }
 
@@ -12,7 +12,7 @@ svg {
 }
 
 text {
-	fill: white;
+	fill: rgb(0, 0, 0);
 }
 
 #user-info {
@@ -46,7 +46,7 @@ text {
 }
 
 .graph .grid {
-	stroke: #ccc;
+	stroke: rgb(68, 162, 255);
 	stroke-dasharray: 0;
 	stroke-width: 1;
 }
@@ -59,14 +59,14 @@ text {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 12px;
-	fill: black;
+	fill: rgb(68, 162, 255);
 }
 
 .data circle {
-	fill: white;
+	fill: rgb(0, 0, 0);
 }
 
 .data line {
-	stroke: white;
+	stroke: rgb(0, 0, 0);
 	stroke-width: 1;
 }
